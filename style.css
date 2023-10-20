@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Ubuntu:wght@300&display=swap'); /*importando fonte (Menus)*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Tilt neon';
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background-image: url(img/aa.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cabecalho-link {
+    display: flex;
+    gap: 4rem;
+    font-weight: 300;
+    cursor: pointer;
+    margin: 0 40px; /* Espaçamento entre os itens */
+}
+
+.cabecalho-link a, button{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+
+    
+}
+
+.cabecalho-link a:hover{ /* efeito sobre os links */
+    color: #00cafc;
+    transition: 0.1s all;
+    border: solid 2px #00cafc;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.conteiner-text{
+    padding: 250px 290px 0px 130px;
+}
+
+.text h2{
+    font-size: 24px;
+}
+.text h3{
+    font-size: 48px;
+    margin-top: 8px;
+}
+
+.text span{
+    color: #00cafc;
+}
+
+.text p{
+    color: black;
+}
+
+.redes-sociais a{
+    color: #00cafc;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.redes-sociais a:hover{
+    color: #000000;
+}
